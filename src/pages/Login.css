@@ -1,0 +1,23 @@
+.login-bg {
+  background: linear-gradient(-45deg, #0d5040, #f02975, #ea6036);
+  animation: gradient 5s ease infinite;
+  height: 80vh;
+  border-radius: 20px;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.login-image {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
